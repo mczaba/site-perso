@@ -28,6 +28,7 @@ export default {
     beforeEnter() {
       if (this.transition === "slideRight") {
         document.documentElement.style.overflow = "hidden";
+        window.scrollTo(0, 0);
       }
     },
     afterLeave() {
