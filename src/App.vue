@@ -26,10 +26,14 @@ export default {
   },
   methods: {
     beforeEnter() {
-      document.documentElement.style.overflow = "hidden";
+      if (this.transition === "slideRight") {
+        document.documentElement.style.overflow = "hidden";
+      }
     },
     afterLeave() {
-      document.documentElement.style.overflow = "visible";
+      if (this.transition === "slideRight") {
+        document.documentElement.style.overflow = "visible";
+      }
     }
   },
   watch: {
