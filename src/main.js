@@ -11,7 +11,7 @@ Vue.use(VueRouter);
 
 const router = new VueRouter({
   routes,
-  mode: "history",
+  mode: "hash",
   base: "/site-perso"
 });
 
