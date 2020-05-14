@@ -2,7 +2,7 @@
   <div class="header">
     <img src="../assets/photoperso.jpg" alt="" />
     <div>
-      <h2>Martin CZABADAJ</h2>
+      <h2>Martin Czabadaj</h2>
       <p>{{ $t("title") }}</p>
     </div>
     <div class="tagsContainer">
@@ -75,6 +75,7 @@ export default {
     background-color: #f3eded;
     color: black;
     padding: 6px;
+    cursor: default;
   }
 }
 </style>

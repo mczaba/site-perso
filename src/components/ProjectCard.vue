@@ -53,7 +53,7 @@ export default {
   justify-content: stretch;
   a {
     cursor: pointer;
-    background-color: var(--background-nav);
+    background-color: #bf7326;
     color: white;
     border: none;
     border-radius: 6px;

@@ -30,7 +30,7 @@ export default {
   "fr": {
     "paragraphs": {
       "first": "Anciennement professeur de mathématiques j'ai toujours eu un goût prononcé pour la programmation et la résolution de problèmes. J'ai donc décidé de quitter l'éducation pour poursuivre une carrière à plein temps dans le développement web.",
-      "second": "Je suis développeur full-stack autodidacte and j'aime créer des applications et sites web de toute sorte. J'apprécie les particulièrement les technologies VueJS et Express.",
+      "second": "Je suis developpeur full-stack autodidacte et j'aime créer des applications et sites web de toutes sortes. J'apprécie particulièrement les technologies VueJS et Express.",
       "third": "N'hésitez pas à me contacter si vous avez un projet à me proposer ou que mes projets (j'en ajoute régulièrement) vous intéressent. Je suis principalement disponible pour des missions en freelance, mais je peux considérer un poste à plein temps en télétravail."
     }
   },

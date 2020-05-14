@@ -115,6 +115,9 @@ export default {
 </i18n>
 
 <style scoped lang="scss">
+.portfolio {
+  background-color: #bf7326;
+}
 .cardsContainer {
   padding: 20px;
   display: flex;
