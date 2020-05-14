@@ -1,7 +1,11 @@
 <template>
   <div id="app">
     <navbar />
-    <transition :name="transition">
+    <transition
+      :name="transition"
+      v-on:before-enter="beforeEnter"
+      v-on:after-leave="afterLeave"
+    >
       <router-view id="view" />
     </transition>
   </div>
@@ -19,6 +23,14 @@ export default {
   },
   components: {
     navbar
+  },
+  methods: {
+    beforeEnter() {
+      document.documentElement.style.overflow = "hidden";
+    },
+    afterLeave() {
+      document.documentElement.style.overflow = "visible";
+    }
   },
   watch: {
     $route(to, from) {
@@ -101,6 +113,7 @@ button {
   animation: slideInRight 0.5s ease;
   position: absolute;
   left: 0;
+  right: 0;
   top: 40px;
   margin: 0 !important;
 }
@@ -108,6 +121,7 @@ button {
   animation: slideOutRight 0.5s ease;
   position: absolute;
   left: 0;
+  right: 0;
   top: 40px;
   margin: 0 !important;
 }
