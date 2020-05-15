@@ -51,6 +51,23 @@ export default {
 
 .description {
   text-align: center;
-  padding: 10px 35%;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  p {
+    width: 550px;
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .description {
+    padding: 10px 0 70px 0;
+    p {
+      width: 90%;
+    }
+  }
 }
 </style>

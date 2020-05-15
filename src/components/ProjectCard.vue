@@ -45,7 +45,7 @@ export default {
 
 <style lang="scss" scoped>
 .card {
-  width: 500px;
+  max-width: 500px;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
   background-color: #fff;
   display: flex;

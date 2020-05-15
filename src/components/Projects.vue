@@ -126,4 +126,10 @@ export default {
   flex-wrap: wrap;
   gap: 30px;
 }
+
+@media screen and (max-width: 600px) {
+  .portfolio {
+    margin-bottom: 60px;
+  }
+}
 </style>
