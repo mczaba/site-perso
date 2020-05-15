@@ -86,6 +86,7 @@ button {
   animation: slideInLeft 0.5s ease;
   position: absolute;
   left: 0;
+  right: 0;
   top: 40px;
   margin: 0 !important;
 }
@@ -93,6 +94,7 @@ button {
   animation: slideOutLeft 0.5s ease;
   position: absolute;
   left: 0;
+  right: 0;
   top: 40px;
   margin: 0 !important;
 }
