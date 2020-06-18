@@ -57,9 +57,11 @@ export default {
     },
     resumeLink() {
       if (this.$root.$i18n.locale === "fr") {
-        return "/CV-FR.pdf";
+        return `${process.env.VUE_APP_PUBLICPATH}CV-FR.pdf`;
+        //return "./CV-FR.pdf";
       }
-      return "/CV-EN.pdf";
+      return `${process.env.VUE_APP_PUBLICPATH}CV-FR.pdf`;
+      //return "./CV-FR.pdf";
     }
   },
   components: {
