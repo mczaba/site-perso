@@ -14,9 +14,7 @@
         <router-link to="/projects" class="link" active-class="active">{{
           $t("portfolio")
         }}</router-link>
-        <router-link to="/skills" class="link" active-class="active">{{
-          $t("skills")
-        }}</router-link>
+        <a :href="resumeLink" target="_blank">{{ $t("skills") }}</a>
       </div>
       <langage-picker />
     </nav>
@@ -36,12 +34,12 @@
           {{ $t("portfolio") }}
         </span></router-link
       >
-      <router-link to="/skills" class="link-bottom" active-class="active-bottom"
+      <a :href="resumeLink" target="_blank"
         ><i class="far fa-address-card"></i
         ><span>
           {{ $t("skills") }}
-        </span></router-link
-      >
+        </span>
+      </a>
     </nav>
   </div>
 </template>
@@ -56,6 +54,12 @@ export default {
   computed: {
     mobileView() {
       return this.windowWidth < 600;
+    },
+    resumeLink() {
+      if (this.$root.$i18n.locale === "fr") {
+        return "/CV-FR.pdf";
+      }
+      return "/CV-EN.pdf";
     }
   },
   components: {
@@ -111,7 +115,8 @@ export default {
   background-color: var(--background-nav);
   z-index: 1;
   color: var(--text-nav);
-  .link-bottom {
+  .link-bottom,
+  a {
     border-right: 1px solid var(--text-nav);
     width: calc(33% - 0.5px);
     margin: 0;
@@ -151,27 +156,30 @@ export default {
     }
   }
 }
-.link {
-  font-weight: bold;
-  text-decoration: none;
-  height: 100%;
-  line-height: 40px;
-  padding: 0 10px;
-  margin: 0 15px;
-  display: inline-block;
-  color: white;
-  &:visited {
+.navigation {
+  .link,
+  a {
+    font-weight: bold;
+    text-decoration: none;
+    height: 100%;
+    line-height: 40px;
+    padding: 0 10px;
+    margin: 0 15px;
+    display: inline-block;
     color: white;
-  }
-  &:active {
-    outline: none;
-  }
-  &:focus {
-    outline: none;
-  }
-  &:hover {
-    height: calc(100% - 3px);
-    border-bottom: 3px solid white;
+    &:visited {
+      color: white;
+    }
+    &:active {
+      outline: none;
+    }
+    &:focus {
+      outline: none;
+    }
+    &:hover {
+      height: calc(100% - 3px);
+      border-bottom: 3px solid white;
+    }
   }
 }
 .active {
