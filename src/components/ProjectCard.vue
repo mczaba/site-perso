@@ -8,7 +8,9 @@
       <slot name="warning" v-if="project.warning"></slot>
       <a :href="project.liveLink">{{ $t("liveLink") }}</a>
       <div class="links">
-        <a :href="project.frontCode">{{ $t("front") }}</a>
+        <a :href="project.frontCode" v-if="project.frontCode">{{
+          $t("front")
+        }}</a>
         <a :href="project.backCode" v-if="project.backCode">{{ $t("back") }}</a>
       </div>
     </div>

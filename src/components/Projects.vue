@@ -60,6 +60,11 @@ export default {
           liveLink: "https://youtube-together.herokuapp.com/",
           frontCode: "https://github.com/mczaba/youtube-together",
           backCode: "https://github.com/mczaba/youtube-together-api"
+        },
+        {
+          title: "Bulgneville",
+          imgSrc: "bulgneville.png",
+          liveLink: "https://etude-bulgneville.azurewebsites.net"
         }
       ]
     };
@@ -89,6 +94,10 @@ export default {
     "youtubeTogether": {
       "intro": "Une application que j'ai fait pendant le confinement pour regarder des vidéos youtube avec ses amis en synchronisé. Fait avec vueJS, express et socket.io.",
       "description": "Vous pouvez rejoindre un salon pour pouvoir regarder une vidéo youtube en synchronisé avec toutes les autres personnes du salon. Permet de mettre la vidéo en pause, de changer le timer, et d'utiliser le chat avec toutes les personnes du salon."
+    },
+    "Bulgneville": {
+      "intro": "Le site web de l'étude notaire de bulgnéville.",
+      "description": "Site web professionnel avec panneau admin permettant de poster des articles ou annonces immobilières. L'utilisateur peut consulter les articles, annonces immobilières, disponibilités et informations sur l'étude, envoyer des messages à l'étude directement via le site, et utiliser un calculateur de frais de notaire ou d'échéance de prêt immobilier"
     }
       
   },
@@ -109,6 +118,10 @@ export default {
     "youtubeTogether": {
       "intro": "An app I made during the COVID quarantine so I could watch youtube videos in sync with my friends. Made with vueJS, express and socket.io",
       "description": "You can join a room to be able to watch a video in sync with everyone in the room. Features pausing, searching for a timer, and a chat."
+    },
+    "Bulgneville": {
+      "intro": "Bulgneville's notary office website.",
+      "description": "Professionnal website with admin panel that let you post articles and real estate announces. The user can view articles, real estate announces, and the office appointments availability and informations about the office, send messages to the office directly from the website, and use a calculator for notary costs and real estate loan"
     }
   }
 }
