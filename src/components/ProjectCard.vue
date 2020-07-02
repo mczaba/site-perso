@@ -6,12 +6,14 @@
       <slot name="intro"></slot>
       <slot></slot>
       <slot name="warning" v-if="project.warning"></slot>
-      <a :href="project.liveLink">{{ $t("liveLink") }}</a>
+      <a :href="project.liveLink" target="_blank">{{ $t("liveLink") }}</a>
       <div class="links">
-        <a :href="project.frontCode" v-if="project.frontCode">{{
+        <a :href="project.frontCode" v-if="project.frontCode" target="_blank">{{
           $t("front")
         }}</a>
-        <a :href="project.backCode" v-if="project.backCode">{{ $t("back") }}</a>
+        <a :href="project.backCode" v-if="project.backCode" target="_blank">{{
+          $t("back")
+        }}</a>
       </div>
     </div>
   </div>
