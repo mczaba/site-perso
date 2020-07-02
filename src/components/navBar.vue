@@ -59,7 +59,7 @@ export default {
       if (this.$root.$i18n.locale === "fr") {
         return `${process.env.VUE_APP_PUBLICPATH}CV-FR.pdf`;
       }
-      return `${process.env.VUE_APP_PUBLICPATH}CV-FR.pdf`;
+      return `${process.env.VUE_APP_PUBLICPATH}CV-EN.pdf`;
     }
   },
   components: {
