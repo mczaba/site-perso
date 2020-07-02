@@ -88,7 +88,7 @@ export default {
     },
     "traderSim": {
       "intro": "Une application de simulation de bourse en temps réel faite avec vueJS(vue-router + vuex) et express en utilisant l'API WorldTradingData.",
-      "warning": "ATTENTION : le service d'API n'étant plus fonctionnel depuis quelques temps, traderSim ne peut pas fonctionner correctement car les données numériques correspondantes aux actions ne peuvent plus être récupérées.",
+      "warning": "Le service d'API de WorldTradingData ne fonctionnant pas actuellement, traderSim ne peut pas fonctionner correctement car les données numériques correspondantes aux actions ne peuvent plus être récupérées.",
       "description": "Vous pouvez chercher pour n'importe quelle action de la bourse américaine et européenne, voir les données en temps réel, ajouter des actions à vos favorites, acheter et vendre des actions, et renommer les actions que vous possédez ou avez mis en favori. Un serveur permet de vous authentifier et de sauvegarder vos données dans une base mongoDB."
     },
     "youtubeTogether": {
@@ -97,7 +97,7 @@ export default {
     },
     "Bulgneville": {
       "intro": "Le site web de l'étude notaire de bulgnéville.",
-      "description": "Site web professionnel avec panneau admin permettant de poster des articles ou annonces immobilières. L'utilisateur peut consulter les articles, annonces immobilières, disponibilités et informations sur l'étude, envoyer des messages à l'étude directement via le site, et utiliser un calculateur de frais de notaire ou d'échéance de prêt immobilier"
+      "description": "Site web professionnel avec panneau admin permettant de poster des articles ou annonces immobilières. L'utilisateur peut consulter les articles, annonces immobilières et informations sur l'étude, envoyer des messages à l'étude directement via le site, et utiliser un calculateur de frais de notaire ou d'échéance de prêt immobilier"
     }
       
   },
@@ -112,7 +112,7 @@ export default {
     },
     "traderSim": {
       "intro": "A real time stock market simulation app made with vueJS(vue-router and vuex), express, and the WorldTradingData API. ",
-      "warning": "WARNING: The API service being currently unavailable, the traderSim app cannot function properly as it cannot get the numeric data for stocks.",
+      "warning": "The WorldTradingData API service being currently unavailable, the traderSim app cannot function properly as it cannot get the numeric data for stocks.",
       "description": "You can search for any stock and get its real time data, you can buy and sell stocks, add them to your watch list and rename the stocks you own or watch. A server enables you to authenticate and save your data to a mongoDB database."
     },
     "youtubeTogether": {
@@ -121,7 +121,7 @@ export default {
     },
     "Bulgneville": {
       "intro": "Bulgneville's notary office website.",
-      "description": "Professionnal website with admin panel that let you post articles and real estate announces. The user can view articles, real estate announces, and the office appointments availability and informations about the office, send messages to the office directly from the website, and use a calculator for notary costs and real estate loan"
+      "description": "Professionnal website with admin panel that let you post articles and real estate announces. The user can view articles, real estate announces, and the office appointments and informations about the office, send messages to the office directly from the website, and use a calculator for notary costs and real estate loan"
     }
   }
 }
