@@ -6,8 +6,8 @@
       <slot name="intro"></slot>
       <slot></slot>
       <slot name="warning" v-if="project.warning"></slot>
-      <a :href="project.liveLink" target="_blank">{{ $t("liveLink") }}</a>
       <div class="links">
+        <a :href="project.liveLink" target="_blank">{{ $t("liveLink") }}</a>
         <a :href="project.frontCode" v-if="project.frontCode" target="_blank">{{
           $t("front")
         }}</a>
@@ -68,6 +68,9 @@ export default {
     &:visited {
       color: white;
     }
+    &:hover {
+      background-color: var(--background-nav);
+    }
   }
   h2 {
     text-transform: capitalize;
@@ -91,8 +94,11 @@ export default {
   }
   .links {
     display: flex;
+    flex-direction: column;
     width: 100%;
     justify-content: space-evenly;
+    align-items: center;
+    gap: 8px;
     flex-wrap: wrap;
   }
 }

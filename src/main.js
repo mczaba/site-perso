@@ -11,14 +11,14 @@ Vue.use(VueRouter);
 
 const router = new VueRouter({
   routes,
-  mode: "history"
+  mode: "hash"
 });
 
 new Vue({
   router,
   store,
   i18n,
-  render: (h) => h(App)
+  render: h => h(App)
 }).$mount("#app");
 
 export default router;
