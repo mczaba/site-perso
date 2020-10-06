@@ -145,11 +145,11 @@ export default {
 #contact {
   width: 76px;
   display: flex;
-  gap: 10px;
   a {
     height: 100%;
     font-size: 30px;
     line-height: 40px;
+    margin-right: 10px;
     color: inherit;
     &:visited {
       color: inherit;

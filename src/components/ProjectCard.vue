@@ -6,15 +6,15 @@
       <slot name="intro"></slot>
       <slot></slot>
       <slot name="warning" v-if="project.warning"></slot>
-      <div class="links">
-        <a :href="project.liveLink" target="_blank">{{ $t("liveLink") }}</a>
-        <a :href="project.frontCode" v-if="project.frontCode" target="_blank">{{
-          $t("front")
-        }}</a>
-        <a :href="project.backCode" v-if="project.backCode" target="_blank">{{
-          $t("back")
-        }}</a>
-      </div>
+    </div>
+    <div class="links">
+      <a :href="project.liveLink" target="_blank">{{ $t("liveLink") }}</a>
+      <a :href="project.frontCode" v-if="project.frontCode" target="_blank">{{
+        $t("front")
+      }}</a>
+      <a :href="project.backCode" v-if="project.backCode" target="_blank">{{
+        $t("back")
+      }}</a>
     </div>
   </div>
 </template>
@@ -34,9 +34,9 @@ export default {
 <i18n>
 {
   "fr": {
-    "liveLink": "Voir ce projet",
-    "front": "Voir le code client",
-    "back": "Voir le code serveur"
+    "liveLink": "Voire ce projet",
+    "front": "Voire le code client",
+    "back": "Voire le code serveur"
       
   },
   "en": {
@@ -51,25 +51,33 @@ export default {
 .card {
   max-width: 500px;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+  margin: 0 20px 20px 0;
   background-color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: stretch;
+  border-radius: 5px;
+  overflow: hidden;
   a {
     cursor: pointer;
     background-color: #bf7326;
     color: white;
-    border: none;
-    border-radius: 6px;
-    padding: 10px;
+    border-right: 1px solid white;
+    padding: 10px 0;
     font-weight: bold;
     font-size: 15px;
     text-decoration: none;
+    text-align: center;
+    width: calc(33% - 1px);
+    line-height: 40px;
     &:visited {
       color: white;
     }
     &:hover {
       background-color: var(--background-nav);
+    }
+    &:last-child {
+      border-right: none;
     }
   }
   h2 {
@@ -94,12 +102,15 @@ export default {
   }
   .links {
     display: flex;
-    flex-direction: column;
     width: 100%;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 8px;
+    height: 60px;
+    justify-content: stretch;
+    align-items: stretch;
     flex-wrap: wrap;
+    a {
+      height: 100%;
+      flex-grow: 1;
+    }
   }
 }
 

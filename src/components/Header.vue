@@ -18,12 +18,14 @@ export default {
     return {
       tags: [
         "VueJS",
+        "NodeJS",
+        "NuxtJS",
         "Javascript",
         "HTML",
         "CSS",
-        "NodeJS",
         "Express",
-        "MongoDB"
+        "MongoDB",
+        "MySQL"
       ]
     };
   }
