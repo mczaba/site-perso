@@ -34,6 +34,7 @@ export default {
       projects: [
         {
           title: "snake",
+          techs: "html, css, javascript, webpack",
           imgSrc: "snake.png",
           liveLink: "https://mczaba.github.io/Snake/",
           frontCode: "https://github.com/mczaba/Snake",
@@ -41,6 +42,7 @@ export default {
         },
         {
           title: "weatherApp",
+          techs: "VueJS",
           imgSrc: "weather.png",
           liveLink: "https://weather-app-mc.herokuapp.com/",
           frontCode: "https://github.com/mczaba/weatherApp",
@@ -48,6 +50,7 @@ export default {
         },
         {
           title: "youtubeTogether",
+          techs: "VueJS, express, websockets",
           imgSrc: "youtubeTogether.png",
           liveLink: "https://youtube-together.herokuapp.com/",
           frontCode: "https://github.com/mczaba/youtube-together",
@@ -55,8 +58,9 @@ export default {
         },
         {
           title: "Bulgneville",
+          techs: "Nuxt, express, mySQL, Sequelize",
           imgSrc: "bulgneville.png",
-          liveLink: "https://etude-bulgneville.azurewebsites.net"
+          liveLink: "https://etude-cuny-morel.com"
         }
       ]
     };
@@ -84,7 +88,7 @@ export default {
     },
     "Bulgneville": {
       "intro": "Le site web de l'étude notaire de bulgnéville.",
-      "description": "Site web professionnel avec panneau admin permettant de poster des articles ou annonces immobilières. L'utilisateur peut consulter les articles, annonces immobilières et informations sur l'étude, envoyer des messages à l'étude directement via le site, et utiliser un calculateur de frais de notaire ou d'échéance de prêt immobilier"
+      "description": "Site web professionnel avec un CMS permettant de poster des articles ou annonces immobilières. L'utilisateur peut consulter les articles, annonces immobilières et informations sur l'étude, envoyer des messages à l'étude directement via le site, et utiliser un calculateur de frais de notaire ou d'échéance de prêt immobilier"
     }
       
   },
@@ -103,7 +107,7 @@ export default {
     },
     "Bulgneville": {
       "intro": "Bulgneville's notary office website.",
-      "description": "Professionnal website with admin panel that let you post articles and real estate announces. The user can view articles, real estate announces, and the office appointments and informations about the office, send messages to the office directly from the website, and use a calculator for notary costs and real estate loan"
+      "description": "Professionnal website with a CMS that let you post articles and real estate announces. The user can view articles, real estate announces, and the office appointments and informations about the office, send messages to the office directly from the website, and use a calculator for notary costs and real estate loan"
     }
   }
 }

@@ -3,6 +3,7 @@
     <img :src="imageURL()" alt="" />
     <div class="text">
       <h2>{{ project.title }}</h2>
+      <p><b>Techs : </b>{{ project.techs }}</p>
       <slot name="intro"></slot>
       <slot></slot>
       <slot name="warning" v-if="project.warning"></slot>
@@ -51,7 +52,7 @@ export default {
 .card {
   max-width: 500px;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
-  margin: 0 20px 20px 0;
+  margin-bottom: 20px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -108,7 +109,6 @@ export default {
     align-items: stretch;
     flex-wrap: wrap;
     a {
-      height: 100%;
       flex-grow: 1;
     }
   }
@@ -116,5 +116,13 @@ export default {
 
 .warning {
   color: red;
+}
+
+@media screen and (max-width: 350px) {
+  .links {
+    a {
+      font-size: 13px;
+    }
+  }
 }
 </style>
