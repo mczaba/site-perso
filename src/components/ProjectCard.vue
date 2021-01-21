@@ -35,9 +35,9 @@ export default {
 <i18n>
 {
   "fr": {
-    "liveLink": "Voire ce projet",
-    "front": "Voire le code client",
-    "back": "Voire le code serveur"
+    "liveLink": "Voir ce projet",
+    "front": "Voir le code client",
+    "back": "Voir le code serveur"
       
   },
   "en": {
