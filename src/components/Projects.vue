@@ -37,6 +37,14 @@ export default {
           backCode: null
         },
         {
+          title: "tic tac toe",
+          techs: "html, css, javascript",
+          imgSrc: "tic-tac-toe.png",
+          liveLink: "https://mczaba.github.io/tic-tac-toe/",
+          frontCode: "https://github.com/mczaba/tic-tac-toe",
+          backCode: null
+        },
+        {
           title: "weatherApp",
           techs: "VueJS",
           imgSrc: "weather.png",
@@ -80,6 +88,10 @@ export default {
       "intro": "Un jeu snake jouable dans le navigateur fait en javascript et avec webpack pour me familiariser avec webpack.",
       "description": "Vous pouvez jouer en cliquant sur les boutons ou avec les flèches du clavier. La touche entrée permet de commencer ou de mettre le jeu en pause Une image se révèle en fond au fur et à mesure de l'avancement."
     },
+    "tic tac toe": {
+      "intro": "Un jeu de morpion jouable dans le navigateur contre un autre joueur ou contre un ordinateur",
+      "description": "Choisissez le nom des 2 joueurs et si le 2eme joueur est humain pour lancer la partie. L'ordinateur ne peut pas perdre la partie et est codé avec l'algorithme minimax."
+    },
     "weatherApp": {
       "intro": "Une application météo faite avec vueJS et l'API OpenWeatherMap.",
       "description" : "Vous pouvez rechercher la ville que vous souhaitez et avoir la météo des 5 prochains jours par tranche de 3 heures. Permet de choisir entre un thème de couleur clair ou sombre."
@@ -102,6 +114,10 @@ export default {
     "snake": {
       "intro": "A snake game playable in the browser I made with javascript and wepback to get more experience with webpack.",
       "description" : "You can play either by clicking the buttons (for mobile users) or using your keyboard. The enter key start or pause the game. The background reveals itself as the snake gets bigger."
+    },
+    "tic tac toe": {
+      "intro": "A tic tac toe game playable in the browser against either a friend or the computer",
+      "description": "Choose the name of both players and choose to play against the computer or another player then start the game. The computer is coded with the minimax algorithm and is unbeatable"
     },
     "weatherApp": {
       "intro": "A weather app made with vueJS and the OpenWeatherMap API.",
