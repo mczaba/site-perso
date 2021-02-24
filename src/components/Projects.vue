@@ -50,17 +50,17 @@ export default {
           code: "https://github.com/mczaba/weatherApp"
         },
         {
-          title: "Bulgneville",
-          techs: "Nuxt, express, mySQL, Sequelize",
-          imgSrc: "bulgneville.png",
-          liveLink: "https://etude-cuny-morel.com"
-        },
-        {
           title: "Hesperides",
           techs: "Nuxt, express, mySQL, Sequelize, Vuetify",
           imgSrc: "hesperides.png",
           liveLink: "https://hesperides-cz.herokuapp.com/",
           code: "https://github.com/mczaba/hesperides"
+        },
+        {
+          title: "Bulgneville",
+          techs: "Nuxt, express, mySQL, Sequelize",
+          imgSrc: "bulgneville.png",
+          liveLink: "https://etude-cuny-morel.com"
         }
       ]
     };
