@@ -29,36 +29,25 @@ export default {
     return {
       projects: [
         {
-          title: "snake",
-          techs: "html, css, javascript, webpack",
-          imgSrc: "snake.png",
-          liveLink: "https://mczaba.github.io/Snake/",
-          frontCode: "https://github.com/mczaba/Snake",
-          backCode: null
-        },
-        {
           title: "tic tac toe",
           techs: "html, css, javascript",
           imgSrc: "tic-tac-toe.png",
           liveLink: "https://mczaba.github.io/tic-tac-toe/",
-          frontCode: "https://github.com/mczaba/tic-tac-toe",
-          backCode: null
+          code: "https://github.com/mczaba/tic-tac-toe"
+        },
+        {
+          title: "to do list",
+          techs: "html, css, javascript, webpack",
+          imgSrc: "todo.png",
+          liveLink: "https://mczaba.github.io/to-do-list/",
+          code: "https://github.com/mczaba/to-do-list"
         },
         {
           title: "weatherApp",
           techs: "VueJS",
           imgSrc: "weather.png",
           liveLink: "https://weather-app-mc.herokuapp.com/",
-          frontCode: "https://github.com/mczaba/weatherApp",
-          backCode: null
-        },
-        {
-          title: "youtubeTogether",
-          techs: "VueJS, express, websockets",
-          imgSrc: "youtubeTogether.png",
-          liveLink: "https://youtube-together.herokuapp.com/",
-          frontCode: "https://github.com/mczaba/youtube-together",
-          backCode: "https://github.com/mczaba/youtube-together-api"
+          code: "https://github.com/mczaba/weatherApp"
         },
         {
           title: "Bulgneville",
@@ -70,7 +59,8 @@ export default {
           title: "Hesperides",
           techs: "Nuxt, express, mySQL, Sequelize, Vuetify",
           imgSrc: "hesperides.png",
-          liveLink: "https://hesperides-cz.herokuapp.com/"
+          liveLink: "https://hesperides-cz.herokuapp.com/",
+          code: "https://github.com/mczaba/hesperides"
         }
       ]
     };
@@ -84,21 +74,17 @@ export default {
 <i18n>
 {
   "fr": {
-    "snake": {
-      "intro": "Un jeu snake jouable dans le navigateur fait en javascript et avec webpack pour me familiariser avec webpack.",
-      "description": "Vous pouvez jouer en cliquant sur les boutons ou avec les flèches du clavier. La touche entrée permet de commencer ou de mettre le jeu en pause Une image se révèle en fond au fur et à mesure de l'avancement."
-    },
     "tic tac toe": {
       "intro": "Un jeu de morpion jouable dans le navigateur contre un autre joueur ou contre un ordinateur",
       "description": "Choisissez le nom des 2 joueurs et si le 2eme joueur est humain pour lancer la partie. L'ordinateur ne peut pas perdre la partie et est codé avec l'algorithme minimax."
     },
+    "to do list": {
+      "intro": "Une application de gestion de tâches",
+      "description": "Permet la création de plusieurs projets et de tâches rattachées à des projets. Un onglet permet de voir toutes les tâches quelques soit le projet, et les autres onglets toutes les tâches rattachées à un certain projet. Une tâche contient une dâte butoir, une importance et une description. Permet de trier les tâches par date ou ordre d'importance"
+    },
     "weatherApp": {
       "intro": "Une application météo faite avec vueJS et l'API OpenWeatherMap.",
       "description" : "Vous pouvez rechercher la ville que vous souhaitez et avoir la météo des 5 prochains jours par tranche de 3 heures. Permet de choisir entre un thème de couleur clair ou sombre."
-    },
-    "youtubeTogether": {
-      "intro": "Une application que j'ai faite pendant le confinement pour regarder des vidéos youtube avec ses amis en synchronisé. Fait avec vueJS, express et socket.io.",
-      "description": "Vous pouvez rejoindre un salon pour pouvoir regarder une vidéo youtube en synchronisé avec toutes les autres personnes du salon. Permet de mettre la vidéo en pause, de changer le timer, et d'utiliser le chat avec toutes les personnes du salon."
     },
     "Bulgneville": {
       "intro": "Le site web de l'étude notaire de bulgnéville.",
@@ -111,21 +97,17 @@ export default {
       
   },
   "en": {
-    "snake": {
-      "intro": "A snake game playable in the browser I made with javascript and wepback to get more experience with webpack.",
-      "description" : "You can play either by clicking the buttons (for mobile users) or using your keyboard. The enter key start or pause the game. The background reveals itself as the snake gets bigger."
-    },
     "tic tac toe": {
       "intro": "A tic tac toe game playable in the browser against either a friend or the computer",
       "description": "Choose the name of both players and choose to play against the computer or another player then start the game. The computer is coded with the minimax algorithm and is unbeatable"
     },
+    "to do list": {
+      "intro": "A to do app",
+      "description": "You can create multiple projects and multiple tasks binded to projects. One tab displays all of your tasks regardless of projects and the other tabs displays all tasks binded to a single projects. Tasks contains a description, a due date and an importance. You can sort tasks by due date or importance."
+    },
     "weatherApp": {
       "intro": "A weather app made with vueJS and the OpenWeatherMap API.",
       "description": "You can search for the city you want and get the weather every 3 hours for the next 5 days. Features a dark and light color scheme that you can freely switch"
-    },
-    "youtubeTogether": {
-      "intro": "An app I made during the COVID quarantine so I could watch youtube videos in sync with my friends. Made with vueJS, express and socket.io",
-      "description": "You can join a room to be able to watch a video in sync with everyone in the room. Features pausing, searching for a timer, and a chat."
     },
     "Bulgneville": {
       "intro": "Bulgneville's notary office website.",

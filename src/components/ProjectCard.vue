@@ -10,11 +10,8 @@
     </div>
     <div class="links">
       <a :href="project.liveLink" target="_blank">{{ $t("liveLink") }}</a>
-      <a :href="project.frontCode" v-if="project.frontCode" target="_blank">{{
-        $t("front")
-      }}</a>
-      <a :href="project.backCode" v-if="project.backCode" target="_blank">{{
-        $t("back")
+      <a :href="project.code" v-if="project.code" target="_blank">{{
+        $t("code")
       }}</a>
     </div>
   </div>
@@ -36,14 +33,11 @@ export default {
 {
   "fr": {
     "liveLink": "Voir ce projet",
-    "front": "Voir le code client",
-    "back": "Voir le code serveur"
-      
+    "code": "Voir le code"
   },
   "en": {
     "liveLink": "View this project",
-    "front": "View front end code",
-    "back": "View back end code"
+    "code": "View code"
   }
 }
 </i18n>
