@@ -50,9 +50,11 @@ export default {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: stretch;
+  justify-content: center;
+  align-items: center;
   border-radius: 5px;
   overflow: hidden;
+  object-fit: contain;
   a {
     cursor: pointer;
     background-color: #bf7326;
@@ -80,7 +82,8 @@ export default {
     text-align: center;
   }
   img {
-    width: 100%;
+    width: auto;
+    height: 250px;
   }
   .text {
     padding: 15px;

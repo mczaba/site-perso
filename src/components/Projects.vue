@@ -29,6 +29,13 @@ export default {
     return {
       projects: [
         {
+          title: "calculator",
+          techs: "html, css, javascript",
+          imgSrc: "calculator.png",
+          liveLink: "https://mczaba.github.io/calculator/",
+          code: "https://github.com/mczaba/calculator"
+        },
+        {
           title: "tic tac toe",
           techs: "html, css, javascript",
           imgSrc: "tic-tac-toe.png",
@@ -74,6 +81,10 @@ export default {
 <i18n>
 {
   "fr": {
+    "calculator": {
+      "intro": "Une application de calculatrice avec possibilité de stocker les calculs sur un notepad",
+      "description": "Application de calculatrice avec support pour les parentheses et tout type d'opérations. Permet également de stocker les calculs souhaités dans un notepad à coté."
+    },
     "tic tac toe": {
       "intro": "Un jeu de morpion jouable dans le navigateur contre un autre joueur ou contre un ordinateur",
       "description": "Choisissez le nom des 2 joueurs et si le 2eme joueur est humain pour lancer la partie. L'ordinateur ne peut pas perdre la partie et est codé avec l'algorithme minimax."
@@ -97,6 +108,10 @@ export default {
       
   },
   "en": {
+    "calculator": {
+      "intro": "Calculator app with a notepad to store some calculus",
+      "description": "Calculator app which supports parentheses and all types of operators"
+    },
     "tic tac toe": {
       "intro": "A tic tac toe game playable in the browser against either a friend or the computer",
       "description": "Choose the name of both players and choose to play against the computer or another player then start the game. The computer is coded with the minimax algorithm and is unbeatable"
