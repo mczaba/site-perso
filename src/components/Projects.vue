@@ -21,61 +21,61 @@
 </template>
 
 <script>
-import ProjectCard from "./ProjectCard";
+import ProjectCard from './ProjectCard'
 
 export default {
-  name: "Projects",
+  name: 'Projects',
   data() {
     return {
       projects: [
         {
-          title: "calculator",
-          techs: "html, css, javascript",
-          imgSrc: "calculator.png",
-          liveLink: "https://mczaba.github.io/calculator/",
-          code: "https://github.com/mczaba/calculator"
+          title: 'Hesperides',
+          techs: 'Nuxt, express, mySQL, Sequelize, Vuetify',
+          imgSrc: 'hesperides.png',
+          liveLink: 'https://hesperides-cz.herokuapp.com/',
+          code: 'https://github.com/mczaba/hesperides'
         },
         {
-          title: "tic tac toe",
-          techs: "html, css, javascript",
-          imgSrc: "tic-tac-toe.png",
-          liveLink: "https://mczaba.github.io/tic-tac-toe/",
-          code: "https://github.com/mczaba/tic-tac-toe"
+          title: 'calculator',
+          techs: 'html, css, javascript',
+          imgSrc: 'calculator.png',
+          liveLink: 'https://mczaba.github.io/calculator/',
+          code: 'https://github.com/mczaba/calculator'
         },
         {
-          title: "to do list",
-          techs: "html, css, javascript, webpack",
-          imgSrc: "todo.png",
-          liveLink: "https://mczaba.github.io/to-do-list/",
-          code: "https://github.com/mczaba/to-do-list"
+          title: 'tic tac toe',
+          techs: 'html, css, javascript',
+          imgSrc: 'tic-tac-toe.png',
+          liveLink: 'https://mczaba.github.io/tic-tac-toe/',
+          code: 'https://github.com/mczaba/tic-tac-toe'
         },
         {
-          title: "weatherApp",
-          techs: "VueJS",
-          imgSrc: "weather.png",
-          liveLink: "https://weather-app-mc.herokuapp.com/",
-          code: "https://github.com/mczaba/weatherApp"
+          title: 'to do list',
+          techs: 'html, css, javascript, webpack',
+          imgSrc: 'todo.png',
+          liveLink: 'https://mczaba.github.io/to-do-list/',
+          code: 'https://github.com/mczaba/to-do-list'
         },
         {
-          title: "Hesperides",
-          techs: "Nuxt, express, mySQL, Sequelize, Vuetify",
-          imgSrc: "hesperides.png",
-          liveLink: "https://hesperides-cz.herokuapp.com/",
-          code: "https://github.com/mczaba/hesperides"
+          title: 'weatherApp',
+          techs: 'VueJS',
+          imgSrc: 'weather.png',
+          liveLink: 'https://weather-app-mc.herokuapp.com/',
+          code: 'https://github.com/mczaba/weatherApp'
         },
         {
-          title: "Bulgneville",
-          techs: "Nuxt, express, mySQL, Sequelize",
-          imgSrc: "bulgneville.png",
-          liveLink: "https://etude-cuny-morel.com"
+          title: 'Bulgneville',
+          techs: 'Nuxt, express, mySQL, Sequelize',
+          imgSrc: 'bulgneville.png',
+          liveLink: 'https://etude-cuny-morel.com'
         }
       ]
-    };
+    }
   },
   components: {
     ProjectCard
   }
-};
+}
 </script>
 
 <i18n>
