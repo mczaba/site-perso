@@ -36,6 +36,19 @@ export default {
           code: 'https://github.com/mczaba/hesperides'
         },
         {
+          title: 'Bulgneville',
+          techs: 'Nuxt, express, mySQL, Sequelize',
+          imgSrc: 'bulgneville.png',
+          liveLink: 'https://etude-cuny-morel.com'
+        },
+        {
+          title: 'weatherApp',
+          techs: 'VueJS',
+          imgSrc: 'weather.png',
+          liveLink: 'https://weather-app-mc.herokuapp.com/',
+          code: 'https://github.com/mczaba/weatherApp'
+        },
+        {
           title: 'calculator',
           techs: 'html, css, javascript',
           imgSrc: 'calculator.png',
@@ -55,19 +68,6 @@ export default {
           imgSrc: 'todo.png',
           liveLink: 'https://mczaba.github.io/to-do-list/',
           code: 'https://github.com/mczaba/to-do-list'
-        },
-        {
-          title: 'weatherApp',
-          techs: 'VueJS',
-          imgSrc: 'weather.png',
-          liveLink: 'https://weather-app-mc.herokuapp.com/',
-          code: 'https://github.com/mczaba/weatherApp'
-        },
-        {
-          title: 'Bulgneville',
-          techs: 'Nuxt, express, mySQL, Sequelize',
-          imgSrc: 'bulgneville.png',
-          liveLink: 'https://etude-cuny-morel.com'
         }
       ]
     }
