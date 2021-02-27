@@ -36,8 +36,8 @@ export default {
   },
   "en": {
     "paragraphs": {
-      "first": "I'm a former maths teacher who always had a taste for solving problems and computer programming. This is why I decided to quit education to pursue a full time career in web developpement.",
-      "second": "I'm a self-taught full stack developper and I like to create websites and apps of all kinds. I like using VueJS and Express.",
+      "first": "I'm a former maths teacher who always had a taste for solving problems and computer programming. This is why I decided to quit education to pursue a full time career in web development.",
+      "second": "I'm a self-taught full stack developer and I like to create websites and apps of all kinds. I like using VueJS and Express.",
       "third": "Don't hesitate to contact me if you have a project you would like me to work on, or if my projects (adding more regularly) interests you."
     }
   }

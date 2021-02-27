@@ -1,9 +1,11 @@
 <template>
   <div class="card">
     <img :src="imageURL()" alt="" />
-    <div class="text">
+    <div class="header">
       <h2>{{ project.title }}</h2>
       <p><b>Techs : </b>{{ project.techs }}</p>
+    </div>
+    <div class="text">
       <slot name="intro"></slot>
       <slot></slot>
       <slot name="warning" v-if="project.warning"></slot>
@@ -24,8 +26,8 @@ export default {
   methods: {
     imageURL() {
       return require(`../assets/projects/${this.project.imgSrc}`);
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -90,12 +92,14 @@ export default {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-evenly;
     gap: 8px;
     p,
     h2 {
       margin: 0;
+    }
+    p::first-child {
+      text-decoration: underline;
     }
   }
   .links {
