@@ -24,7 +24,6 @@ export default {
         "HTML",
         "CSS",
         "Express",
-        "MongoDB",
         "MySQL"
       ]
     };
