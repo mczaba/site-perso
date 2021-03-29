@@ -21,61 +21,68 @@
 </template>
 
 <script>
-import ProjectCard from './ProjectCard'
+import ProjectCard from "./ProjectCard";
 
 export default {
-  name: 'Projects',
+  name: "Projects",
   data() {
     return {
       projects: [
         {
-          title: 'Hesperides',
-          techs: 'Nuxt, Express, mySQL, Sequelize, Vuetify',
-          imgSrc: 'hesperides.png',
-          liveLink: 'https://hesperides-cz.herokuapp.com/',
-          code: 'https://github.com/mczaba/hesperides'
+          title: "YoutubeTogether",
+          techs: "Typescript, Nuxt, Express, Socket.io",
+          imgSrc: "YoutubeTogether.png",
+          liveLink: "https://youtube-together-v2.herokuapp.com",
+          code: "https://github.com/mczaba/YoutubeTogetherV2",
         },
         {
-          title: 'Bulgneville',
-          techs: 'Nuxt, Express, mySQL, Sequelize',
-          imgSrc: 'bulgneville.png',
-          liveLink: 'https://etude-cuny-morel.com'
+          title: "Hesperides",
+          techs: "Nuxt, Express, mySQL, Sequelize, Vuetify",
+          imgSrc: "hesperides.png",
+          liveLink: "https://hesperides-cz.herokuapp.com/",
+          code: "https://github.com/mczaba/hesperides",
         },
         {
-          title: 'WeatherApp',
-          techs: 'VueJS',
-          imgSrc: 'weather.png',
-          liveLink: 'https://weather-app-mc.herokuapp.com/',
-          code: 'https://github.com/mczaba/weatherApp'
+          title: "Bulgneville",
+          techs: "Nuxt, Express, mySQL, Sequelize",
+          imgSrc: "bulgneville.png",
+          liveLink: "https://etude-cuny-morel.com",
         },
         {
-          title: 'Calculator',
-          techs: 'HTML, CSS, JavaScript',
-          imgSrc: 'calculator.png',
-          liveLink: 'https://mczaba.github.io/calculator/',
-          code: 'https://github.com/mczaba/calculator'
+          title: "WeatherApp",
+          techs: "VueJS",
+          imgSrc: "weather.png",
+          liveLink: "https://weather-app-mc.herokuapp.com/",
+          code: "https://github.com/mczaba/weatherApp",
         },
         {
-          title: 'Tic Tac Toe',
-          techs: 'HTML, CSS, JavaScript',
-          imgSrc: 'tic-tac-toe.png',
-          liveLink: 'https://mczaba.github.io/tic-tac-toe/',
-          code: 'https://github.com/mczaba/tic-tac-toe'
+          title: "Calculator",
+          techs: "HTML, CSS, JavaScript",
+          imgSrc: "calculator.png",
+          liveLink: "https://mczaba.github.io/calculator/",
+          code: "https://github.com/mczaba/calculator",
         },
         {
-          title: 'To do list',
-          techs: 'HTML, CSS, JavaScript, Webpack',
-          imgSrc: 'todo.png',
-          liveLink: 'https://mczaba.github.io/to-do-list/',
-          code: 'https://github.com/mczaba/to-do-list'
-        }
-      ]
-    }
+          title: "Tic Tac Toe",
+          techs: "HTML, CSS, JavaScript",
+          imgSrc: "tic-tac-toe.png",
+          liveLink: "https://mczaba.github.io/tic-tac-toe/",
+          code: "https://github.com/mczaba/tic-tac-toe",
+        },
+        {
+          title: "To do list",
+          techs: "HTML, CSS, JavaScript, Webpack",
+          imgSrc: "todo.png",
+          liveLink: "https://mczaba.github.io/to-do-list/",
+          code: "https://github.com/mczaba/to-do-list",
+        },
+      ],
+    };
   },
   components: {
-    ProjectCard
-  }
-}
+    ProjectCard,
+  },
+};
 </script>
 
 <i18n>
@@ -104,6 +111,10 @@ export default {
     "Hesperides": {
       "intro": "Application web pour un syndic de copropriété.",
       "description": "Une application permettant de consulter et éditer une base de donnée sur les propriétaires, lots et locataires d'une copropriété. Permet également de poster des documents (factures/devis) au format pdf et de modifier leur statut (traité ou à traiter). \n\nSystème d'authentication complet avec 4 types de permissions (consultation de la DB, modification de la DB, poster des documents, consulter les documents). \n\nVous pouvez vous connecter avec les logs admin // admin et consulter la liste des comptes pour vous connecter avec d'autres permissions. (le mot de passe est toujours le même que le login) \n\nNB: Le système de documents ne fonctionne pas sur cette version vitrine à cause des limitations d'heroku."
+    },
+    "YoutubeTogether": {
+      "intro": "Application web permettant de regarder des vidéos youtube en synchronisé avec ses amis.",
+      "description": "Créez ou rejoignez un salon en utilisant son nom et un pseudo avec lequel vous connecter. \n\nL'hôte du salon peut décider si lui seul ou tout le monde peut interagir avec la vidéo. L'hôte peut changer les droits à tout moment. Les personnes pouvant interragir avec la vidéo peuvent mettre en pause, changer le timer ou changer la vidéo. \n\nChaque salon dispose de son propre chat.\n\nL'utilisateur peut rejoindre directement un salon ou voir la liste de tous les salons actuellement en ligne."
     }
       
   },
@@ -131,6 +142,10 @@ export default {
     "Hesperides": {
       "intro": "Web app made for a co-ownership buildings.",
       "description": "An app made for consulting and editing a database about owners, tenants, and appartement. Also features posting and consulting pdf document and editing their status to either 'to do' or 'done'. \n\nComplete authentication system with 4 types of authorizations (editing accounts, editing the database, posting documents and consulting documents). \n\nLogin using the credentials admin // admin to view the list of other accounts with different authorizations you can log on. (password is always equal to login)\n\nNB: Due to limitations on heroku hosting, the document features is not working on this showcase version."
+    },
+    "YoutubeTogether": {
+      "into": "Web App made for watching youtube videos in sync with your friends.",
+      "description": "Join or creat a room using a room name and a nickname you want to log with.\n\nThe room host can decide if everyone or only he can interract with the video. He can change the room rights anytime. People can interract with the video by setting it on pause, changing the timer or changing the video.\n\n Every room has its own chat.\n\nThe user can directly join a room or see a list of all rooms currently online."
     }
   }
 }
