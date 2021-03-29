@@ -18,9 +18,11 @@ export default {
     return {
       tags: [
         "VueJS",
-        "NodeJS",
         "NuxtJS",
+        "React",
+        "NodeJS",
         "Javascript",
+        "TypeScript",
         "HTML",
         "CSS",
         "Express",
