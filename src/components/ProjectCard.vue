@@ -85,7 +85,12 @@ export default {
   }
   img {
     width: auto;
+    max-width: 100%;
     height: 250px;
+  }
+  .header {
+    padding: 0 15px;
+    width: calc(100% - 30px);
   }
   .text {
     padding: 15px;

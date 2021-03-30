@@ -144,8 +144,8 @@ export default {
       "description": "An app made for consulting and editing a database about owners, tenants, and appartement. Also features posting and consulting pdf document and editing their status to either 'to do' or 'done'. \n\nComplete authentication system with 4 types of authorizations (editing accounts, editing the database, posting documents and consulting documents). \n\nLogin using the credentials admin // admin to view the list of other accounts with different authorizations you can log on. (password is always equal to login)\n\nNB: Due to limitations on heroku hosting, the document features is not working on this showcase version."
     },
     "YoutubeTogether": {
-      "into": "Web App made for watching youtube videos in sync with your friends.",
-      "description": "Join or creat a room using a room name and a nickname you want to log with.\n\nThe room host can decide if everyone or only he can interract with the video. He can change the room rights anytime. People can interract with the video by setting it on pause, changing the timer or changing the video.\n\n Every room has its own chat.\n\nThe user can directly join a room or see a list of all rooms currently online."
+      "intro": "Web App made for watching youtube videos in sync with your friends.",
+      "description": "Join or create a room using a room name and a nickname you want to log with.\n\nThe room host can decide if everyone or only he can interract with the video. He can change the room rights anytime. People can interract with the video by setting it on pause, changing the timer or changing the video.\n\n Every room has its own chat.\n\nThe user can directly join a room or see a list of all rooms currently online."
     }
   }
 }

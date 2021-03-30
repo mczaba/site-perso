@@ -17,14 +17,14 @@ export default {
   data() {
     return {
       tags: [
-        "VueJS",
-        "NuxtJS",
-        "React",
-        "NodeJS",
         "Javascript",
         "TypeScript",
         "HTML",
         "CSS",
+        "VueJS",
+        "NuxtJS",
+        "React",
+        "NodeJS",
         "Express",
         "MySQL"
       ]
