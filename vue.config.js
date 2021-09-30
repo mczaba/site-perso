@@ -1,5 +1,5 @@
 module.exports = {
-  //publicPath: "/site-perso",
+  publicPath: "/site-perso",
   pluginOptions: {
     i18n: {
       locale: "en",
