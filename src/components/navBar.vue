@@ -34,7 +34,7 @@
           {{ $t("portfolio") }}
         </span></router-link
       >
-      <a :href="resumeLink" target="_blank"
+      <a :href="resumeLink"
         ><i class="far fa-address-card"></i
         ><span>
           {{ $t("skills") }}
